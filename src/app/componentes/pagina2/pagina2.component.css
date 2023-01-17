@@ -1,0 +1,29 @@
+*{ background-image:url('https://img.freepik.com/foto-gratis/fondo-banner-humo-purpura-estetico_53876-129044.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    }
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    
+  }
+  .contenedor{
+    height: 100vh;
+    margin: 0%;
+
+
+    display: flex;
+    align-items: center;
+  
+
+  }
+  .login{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+  }
+  .boton{
+    color: blueviolet;
+  }

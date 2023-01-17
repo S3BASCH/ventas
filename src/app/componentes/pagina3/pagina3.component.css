@@ -1,0 +1,74 @@
+*{ background-image:url('https://img.freepik.com/foto-gratis/fondo-banner-humo-purpura-estetico_53876-129044.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    }
+    body {
+        margin: 0px ;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    button{
+        border: none;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 8px;
+        padding: 10px 25px; 
+    }
+  .pag-nave{
+    border: 1px solid black;
+    position: relative;
+  }
+  .button-check{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px; 
+  }
+
+  .button-check:hover{
+    background-color: green;
+    color: white;
+}
+  .pag-nave h1{
+    margin: 20px;
+  }
+  .pag-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid purple;
+  }
+
+  .producto {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0.2);
+    background-color: wheat;
+  }
+
+  .producto:hover {
+   box-shadow: 0 8px 16px 0  rgba(0, 0, 0, 0.2);
+  }
+
+  .producto img{
+    width: 300px;
+  }
+  .button-add{
+
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+.button-add:hover{
+    background-color: green;
+    color: white;
+}
